@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find rospeex_launch)/launch/rospeex_browser.launch" />
+  <node name="rospeex_sampler" pkg="aki_rospeex_sample" type="sample.py" cwd="node" output="screen" />
+</launch>
