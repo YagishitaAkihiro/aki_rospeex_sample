@@ -45,7 +45,7 @@ class Demo(object):
               self.pub.publish(2)
            elif order21 is not None:
               print "pattern21_order_order21"
-                self.pub.publish(3)
+              self.pub.publish(3)
 
         if pattern22 is not None:
            if order11 is not None:
